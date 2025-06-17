@@ -1,14 +1,14 @@
-//import Reviews from "../Reviews/Reviews";
-import "./BlogDetails.css"
+import Reviews from "../Reviews/Reviews";
+import "./BlogDetails.css";
 
-function BlogDetails() {
+const BlogDetails = () => {
   return (
     <section className="single-blog">
       <div className="container">
         <article>
           <figure>
             <a href="#">
-              <img src="img/blogs/blog1.jpg" alt="" />
+              <img src="/img/blogs/blog1.jpg" alt="" />
             </a>
           </figure>
           <div className="blog-wrapper">
@@ -106,11 +106,10 @@ function BlogDetails() {
             </div>
           </div>
         </article>
-        
-        
+        <Reviews />
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default BlogDetails
+export default BlogDetails;

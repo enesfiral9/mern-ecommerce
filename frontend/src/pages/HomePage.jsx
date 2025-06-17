@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "../components/Layout/Header/Header";
 import Sliders from "../components/Slider/Sliders";
 import Categories from "../components/Categories/Categories";
 import Products from "../components/Products/Products";
@@ -7,12 +6,12 @@ import Campaigns from "../components/Campaigns/Campaigns";
 import Blogs from "../components/Blogs/Blogs";
 import Brands from "../components/Brands/Brands";
 import CampaignSingle from "../components/CamapaignSingle/CampaignSingle";
-import Footer from "../components/Layout/Footer/Footer";
+
 
 function HomePage() {
   return (
     <React.Fragment>
-      <Header />
+ 
       <Sliders />
       <Categories />
       <Products />
@@ -21,7 +20,7 @@ function HomePage() {
       <Blogs />
       <Brands />
       <CampaignSingle />
-      <Footer/>
+
     </React.Fragment>
   );
 }

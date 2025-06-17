@@ -177,7 +177,7 @@ function Footer() {
             <div className="site-copyright">
               <p>
                 Copyright 2022 © E-Commerce Theme. All right reserved. Powered
-                by Emin Basbayan.
+                by Enes Firal.
               </p>
             </div>
             <a href="#">

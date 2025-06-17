@@ -13,8 +13,22 @@
   .policy .policy-list .policy-item {
     display: flex;
     align-items: center;
-    column-gap: 10px;
+    column-gap: 20px;
   }
+/* Mobile View (768px ve daha küçük ekranlar) (freedelivery support vsvs) */
+  @media (max-width: 768px) {
+  .policy .policy-list .policy-item {
+    width: 40%; /* 2 öğe yan yana olacak şekilde ayarlandı */
+  }
+  
+}
+
+/* Small Mobile View (480px ve daha küçük ekranlar) */
+/* @media (max-width: 480px) {
+  .policy .policy-list .policy-item {
+    width: 100%; /* Her öğe alt alta gelir */
+  /* }
+} */ 
   
   .policy .policy-item i {
     font-size: 50px;
