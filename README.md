@@ -1,0 +1,1 @@
+E-Ticaret yazılımlarının kompleks yapılarını Javascript teknolojileriyle sıfırdan inşaa etmek üzere yola çıkmış bulunuyorum.Referans aldığım bazı kaynakların yardımıyla süreci ilerletiyorum, geliştirme süre zarfında Yapay zekaya kod yazdırmıyorum yapay zekayı sadece sorun çözümünde kullanıyorum.
